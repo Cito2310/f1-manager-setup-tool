@@ -1,0 +1,44 @@
+.input-setup-bar {
+    background-color: rgb(68, 68, 68);
+    border-radius: 0.3em;
+    display: grid;
+    font-size: 1.1em;
+    grid-template-columns: 200px 300px 60px;
+    margin: 3px 0;
+    padding: 0.4em 0.6em;
+
+    p {
+        all: unset;
+        color: rgb(226, 226, 226);
+    }
+
+    .setup-bar {
+        background-color: rgb(112, 112, 112);
+        height: 2px;
+        margin: auto;
+        width: 269px;
+
+        .selector-setup-bar {
+            background-color: rgb(179, 179, 179);
+            height: 20px;
+            left: 0%; // change this for the position
+            position: relative;
+            top: -9px;
+            width: 3px;
+        }
+    }
+
+    input {
+        all: unset;
+        background-color: rgb(202, 202, 202);
+        border-radius: 0.2em;
+        text-align: center;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button,
+    input[type=number] {
+        -webkit-appearance: none;
+        -moz-appearance: textfield;
+    }
+}

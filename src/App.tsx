@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import "./config.scss"
+
+import { ContainerSetup } from './container-setup/ContainerSetup';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      Hola
+      <h1>F1 Manager Setup Tool</h1>
+
+      <ContainerSetup/>
     </div>
   )
 }
