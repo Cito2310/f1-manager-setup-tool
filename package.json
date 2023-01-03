@@ -1,12 +1,16 @@
 {
   "name": "f1-manager-setup-tool",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build --base=./",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "update-patch": "npm version --force --no-git-tag-version patch",
+    "update-minor": "npm version --force --no-git-tag-version minor",
+    "update-major": "npm version --force --no-git-tag-version major"
   },
   "dependencies": {
     "react": "^18.2.0",

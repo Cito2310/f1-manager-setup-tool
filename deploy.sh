@@ -14,6 +14,6 @@ git init
 git checkout -B main
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Cito2310/traffic-light-f1-reaction.git main:gh-pages
+git push -f git@github.com:Cito2310/f1-manager-setup-tool.git main:gh-pages
 
 cd -
