@@ -1,0 +1,12 @@
+.setup-container {
+    display: grid;
+    gap: 2px;
+    grid-template-rows: 38px auto;
+    margin: 0 auto;
+}
+
+.setup-container-row {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 260px 310px 167px;
+}

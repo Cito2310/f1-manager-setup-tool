@@ -1,13 +1,12 @@
 import "./config.scss"
-
-import { ContainerSetup } from './container-setup/ContainerSetup';
+import { SetupContainer } from './setup-container/SetupContainer';
 
 function App() {
   return (
     <div className="App">
       <h1>F1 Manager Setup Tool</h1>
 
-      <ContainerSetup/>
+      <SetupContainer/>
     </div>
   )
 }

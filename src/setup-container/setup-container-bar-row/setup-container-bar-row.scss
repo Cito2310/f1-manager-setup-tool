@@ -1,0 +1,31 @@
+.setup-container-bar-row {
+    .setup-container-item {
+        padding: 10px;
+        background-color: rgb(28, 28, 38);
+        display: flex;
+    }
+
+    p {
+        all: unset;
+        color: rgb(192, 193, 198);
+        margin: auto 0;
+    }
+
+    .setup-bar {
+        background-color: rgb(53, 53, 63);
+        border-color: rgb(28, 28, 38);
+        border-style: solid;
+        border-width: 6px 0px;
+        height: 2px;
+        margin: auto;
+        width: 272px;
+    }
+
+    .setup-bar-selector {
+        background-color: rgb(229, 245, 242);
+        height: 14px;
+        position: relative;
+        top: -6px;
+        width: 4px;
+    }
+}
